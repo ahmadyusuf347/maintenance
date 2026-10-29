@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sedang Dalam Pengembangan</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Inter / Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #fcfcfd;
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center px-4 py-8">
+
+    <div class="max-w-xl w-full text-center flex flex-col items-center">
+        
+        <!-- Logo Kreasite (Diperkecil) -->
+        <div class="mb-10">
+            <img src="Logo.png" alt="Logo" class="h-8 md:h-10 w-auto object-contain mx-auto" onerror="this.onerror=null; this.src='https://via.placeholder.com/160x40/transparent/000000?text=Kreasite';">
+        </div>
+
+        <!-- Kartu Icon Hantu Merah -->
+        <div class="mb-8 p-6 bg-white rounded-3xl shadow-[0_15px_35px_-5px_rgba(230,0,35,0.12)] border border-gray-100 flex items-center justify-center w-28 h-28 md:w-32 md:h-32">
+            <svg class="w-16 h-16 text-[#e60023]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <!-- Icon Ghost -->
+                <path d="M9 10h.01"/>
+                <path d="M15 10h.01"/>
+                <path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"/>
+                <path d="M10 14c.5.5 1.5.5 2 0"/>
+            </svg>
+        </div>
+
+        <!-- Teks Judul Utama -->
+        <h1 class="text-3xl md:text-4xl lg:text-[40px] font-extrabold text-[#111827] leading-tight tracking-tight mb-4">
+            Website Sedang Dalam<br>
+            <span class="text-[#e60023]">Pengembangan</span>
+        </h1>
+
+        <!-- Deskripsi -->
+        <p class="text-gray-500 text-sm md:text-base leading-relaxed max-w-md mx-auto font-normal">
+            Kami sedang memperbarui sistem dan tampilan website untuk memberikan pengalaman terbaik bagi Anda. Kami akan segera kembali!
+        </p>
+
+    </div>
+
+</body>
+</html>
